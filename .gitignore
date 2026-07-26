@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Raw source files are large (Zillow ZHVI alone is 117 MB) and are re-downloadable.
+# See the README for download instructions. The processed CA subset IS committed.
+data/raw/
+
+# Never commit the Census API key.
+.env
